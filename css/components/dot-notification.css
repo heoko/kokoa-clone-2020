@@ -1,0 +1,19 @@
+.dot-notification-parent {
+  position: relative;
+}
+.dot-notification {
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  width: 10px;
+  height: 10px;
+  /* make the contents in center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* decide the location */
+  position: absolute;
+  right: -4px;
+  bottom: 15px;
+/* animation  */
+  animation: notificationAnimation2 2s ease-in-out infinite;

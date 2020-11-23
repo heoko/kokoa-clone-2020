@@ -1,18 +1,42 @@
+/* Icon-row dot-notification adjustment  */
+.more-icon-row-dot-notification {
+  right: 1px;
+  bottom: 45px;
+}
+
 .icon-row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.icon-row__icon {
+.icon-row_icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0.8;
+}
+.icon-row_icon:hover {
+  opacity: 1;
 }
 
-.icon-row__icon i {
+.icon-row_icon i {
   font-size: 35px;
 }
+.icon-row_icon i:hover {
+  color: black;
+}
 
-.icon-row__icon span {
-  margin-top: 18px;
+.icon-row_icon span {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.icon-row_2nd-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon-row_2nd-row_icon {
+  margin-right: 75px;
 }

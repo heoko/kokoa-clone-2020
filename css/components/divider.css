@@ -1,0 +1,7 @@
+/* short vertical divider between words */
+.divider {
+  width: 2px;
+  height: 14px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}

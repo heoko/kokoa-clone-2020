@@ -1,18 +1,50 @@
-.settings__setting {
-  padding: 20px 0;
+.settings_setting {
+  padding: 18px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+/* to give the more allowance under-Versions and over-Privacy  */
+.settings-list
+.settings_setting:nth-child(3) {
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
 
-.settings__setting i {
-  opacity: 0.8;
+.settings_setting i {
+  opacity: 0.5;
   margin-right: 20px;
   font-size: 22px;
 }
+.settings_setting i:hover {
+  opacity: 1;
+  margin-right: 20px;
+  font-size: 22px;
+  transform: rotateZ(30deg);
+}
 
-.settings__setting-column:last-child {
+.settings_setting-column:nth-child(3) {
+  text-align: left;
+}
+.settings_setting-column:last-child {
   opacity: 0.5;
+}
+.settings_setting-column .badge {
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  padding: 1px;
+  display: inline;
+  border-radius: 50%;
+  padding: 0 4px;
+}
+
+.settings_setting-column_1 {
+  column-width: 20vw;
+}
+.settings_setting-column_2 {
+  column-width: 50%;
 }

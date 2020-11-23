@@ -1,24 +1,39 @@
+/* place the status bar at the top fixed */
+.status-bar-box {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* margin-bottom: 30px; */
+}
+/* to give space next to "no service" from the wifi icon */
+.status-bar_column:first-child span {
+  margin-right: 5px;
+}
+/* hack to put the time in the center */
+/* 1. make it flex / center */
 .status-bar {
   display: flex;
   justify-content: center;
+  /* padding over the status bar */
   padding: 5px 3px;
 }
-.status-bar__column {
+/* 2. each column a third (33%) */
+.status-bar_column {
   width: 33%;
 }
-.status-bar__column:first-child span {
-  margin-right: 5px;
-}
-.status-bar__column:nth-child(2) {
+/* 3. place the element to put in the center(time) */
+.status-bar_column:nth-child(2) {
   display: flex;
   justify-content: center;
 }
-.status-bar__column:last-child {
+/* 4. put the last column flex/ flex-end */
+.status-bar_column:last-child {
   display: flex;
   justify-content: flex-end;
+  /* to make the icon vertitally center */
   align-items: center;
 }
-
-.status-bar__column .fa-battery-full {
+/* to give space around the battery icon */
+.status-bar_column .fa-battery-full {
   margin: 0px 5px;
 }

@@ -1,5 +1,17 @@
 :root {
+  --title-font: 32px;
   --yellow: #fae100;
+  --brown: 
+  /* main text color:  */
+  --color: #2e363e;
+  --black: #4b4b4b;
+  --midgray: rgba(0, 0, 0, 0.4);
+  --lightgray: rgba(0, 0, 0, 0.2);
+  /* horizontal space  */
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  /* border line  */
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --border-bottom: var(--main-border);
+  --border-bottom: var(--main-border);
+  --padding: 10px 0;
 }

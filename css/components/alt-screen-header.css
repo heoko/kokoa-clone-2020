@@ -1,33 +1,44 @@
+/* To make an alt-header shortcut
+header.alt-header>div.alt-header_column*3 + enter */
+
 .alt-header {
   padding: var(--horizontal-space);
-  margin-bottom: 15px;
+  margin: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.alt-header__column {
+.alt-header i {
+  opacity: 0.6;
+}
+.alt-header i:hover {
+  opacity: 1;
+  color: var(--black);
+}
+
+.alt-header_column {
   width: 33%;
 }
 
-.alt-header__title {
+.alt-header_title {
   font-size: 28px;
   font-weight: 600;
 }
 
-.alt-header__column:first-child {
+.alt-header_column:first-child {
   margin-right: auto;
 }
 
-.alt-header__column:nth-child(2) {
+.alt-header_column:nth-child(2) {
   text-align: center;
 }
 
-.alt-header__column:last-child {
+.alt-header_column:last-child {
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
 }
 
-.alt-header__column span:last-child {
+.alt-header_column span:last-child {
   margin-left: 20px;
 }

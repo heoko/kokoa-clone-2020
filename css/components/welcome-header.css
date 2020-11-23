@@ -1,0 +1,20 @@
+/* designate the Welcome block first */
+.welcome-header {
+  /* space over the welcome line */
+  margin: 90px 0;
+  text-align: center;
+  /* to put title and text in the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header_title {
+  /* space under the welcome title */
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.welcome-header_text {
+  width: 60%;
+  font-size: 14px;
+  opacity: 0.7;
+}
