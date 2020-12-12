@@ -32,11 +32,16 @@
   font-size: 14px;
 }
 
-.icon-row_2nd-row {
+.not-visible i,
+.not-visible span {
+  visibility: hidden;
+}
+
+/* .icon-row_2nd-row {
   display: flex;
   justify-content: flex-start;
 }
 
 .icon-row_2nd-row_icon {
-  margin-right: 75px;
-}
+  margin-right: 17vw;
+} */

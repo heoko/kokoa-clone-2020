@@ -11,6 +11,7 @@ rorate setting icon animation */
 .screen-header_icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
+
 /* screen header
 shake Search icon animation */
 @keyframes shakeSearch {
@@ -25,11 +26,80 @@ shake Search icon animation */
     transform: none;
   }
 }
+.alt-header_column .fa-search:hover,
 .nav_btn .fa-search:hover,
 .screen-header_icons .fa-search:hover {
   animation: shakeSearch 1s ease infinite;
 }
-
+/* screen header / alt-header
+Chat icon animation */
+@keyframes enlargeChat {
+  0% {
+    transform: none;
+  }
+  50% {
+    /* transform: rotateZ(90deg); */
+    transform: scale(1.4);
+  }
+  100% {
+    transform: none;
+  }
+}
+.alt-header_column .fa-comment-dots:hover,
+.nav_btn .fa-comment-dots:hover,
+.screen-header_icons .fa-comment-dots:hover {
+  animation: enlargeChat 1s ease infinite;
+}
+/* screen header/alt-header music icon animation */
+@keyframes shakeMusic {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: translateY(10px);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.alt-header_column .fa-music:hover,
+.screen-header_icons .fa-music:hover {
+  animation: shakeMusic 1s ease infinite;
+}
+/* screen header/alt-header More icon animation */
+@keyframes vibrateMore {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: translateY(5px);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.alt-header_column .fa-bars:hover,
+.screen-header_icons .fa-bars:hover {
+  animation: vibrateMore 0.05s ease infinite;
+}
 /* Nav bar
 more icon(4th) notification animation */
 @keyframes notificationAnimation2 {
@@ -179,3 +249,32 @@ no landscape animation */
   will-change: transform;
   animation: heartBeat 1s linear infinite;
 }
+
+/* Chat screen Reply Bar Animation  */
+/* button actions  */
+.reply_column button:focus,
+.reply_column button:active {
+  outline: none;
+}
+
+.reply .reply_column:first-child,
+.reply .fa-smile-wink,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply_column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply input:focus {
+  width: 98vw;
+  transform: translateX(-13%) translateY(-80px);
+}
+
+.reply:focus-within {
+  transform: translateY(80px);
+}
+

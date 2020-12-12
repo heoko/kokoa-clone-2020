@@ -22,6 +22,7 @@
 @import "components/no-mobile.css";
 @import "components/animation.css";
 @import "components/dot-notification.css";
+@import "components/keyboard.css";
 
 /* Screens */
 /* @import "screens/login.css"; */

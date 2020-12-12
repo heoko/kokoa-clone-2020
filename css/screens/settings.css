@@ -26,11 +26,12 @@
   transform: rotateZ(30deg);
 }
 
-.settings_setting-column:nth-child(3) {
-  text-align: left;
-}
+/* .settings_setting-column:nth-child(3) {
+
+} */
 .settings_setting-column:last-child {
   opacity: 0.5;
+  text-align: left;
 }
 .settings_setting-column .badge {
   font-size: 12px;
