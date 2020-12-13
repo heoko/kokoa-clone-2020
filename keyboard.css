@@ -1,12 +1,33 @@
 /* key board  */
+* {
+  box-sizing: border-box;
+}
 .keyboard {
-  background-color: #D1D4D9;
-  position: fixed;
-  top: 70vh;
+  /* background-color: #D1D4D9; */
+  /* position: fixed; */
+  /* top: 68vh; */
   width: 100vw;
-  height: 30vh;
+  /* height: 32vh; */
   display: flex;
 }
+/* keyboard rows positions  */
+.keyboard-first-row {
+  position: fixed;
+  top: 71vh;
+}
+.keyboard-second-row {
+  position: fixed;
+  top:78vh;
+}
+.keyboard-third-row {
+  position: fixed;
+  top: 85vh;
+}
+.keyboard-fourth-row {
+  position: fixed;
+  top: 92vh;
+}
+
 
 .keyboard-rows {
   width: 100%;
@@ -21,8 +42,11 @@
   height: 8vh;
   display: inline-flex;
   justify-content:center;
+  background-color: #D1D4D9;
   align-items: center;
 }
+
+
 .keyboard-rows-row
 .keyboard-second-row {
   padding-right: 5vw;
@@ -30,10 +54,10 @@
 }
 /* keyboard keys  */
 .keyboard-rows-row span {
-  margin:1vmin;
-  padding: 1.5vmin 1.5vmin 1.5vmin 2vmin;
+  margin:0 2px;
+  padding: 9px 2px 12px 2px;
   font-size: 1.5em;
-  width:10vmin;
+  width:9vmin;
   text-align: center;
   background-color: white;
   border-radius: 11%;

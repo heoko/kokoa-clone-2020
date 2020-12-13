@@ -34,8 +34,9 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
-  color: lightgray;
+  color: darkgray;
   font-size: 16px;
+  font-weight: 600;
 }
 
 #login-form input[type="submit"]:hover {
