@@ -4,7 +4,7 @@
   position: fixed;
   top: 70vh;
   width: 100vw;
-  height: 32vh;
+  height: 30vh;
   display: flex;
 }
 
@@ -30,8 +30,8 @@
 }
 /* keyboard keys  */
 .keyboard-rows-row span {
-  margin:2px 2px;
-  padding: 2.3vmin 1.5vmin 3vmin 1.5vmin;
+  margin:1vmin;
+  padding: 1.5vmin 1.5vmin 1.5vmin 2vmin;
   font-size: 1.5em;
   width:10vmin;
   text-align: center;
@@ -57,8 +57,8 @@
   font-size: 21px;
   width: 10vw;
   font-style: bold;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .keyboard-fourth-row
 .keyboard-special-button i {

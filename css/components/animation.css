@@ -165,15 +165,6 @@ gradual appear animation */
 
 /*  
 no landscape animation */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-  #no-landscape {
-    display: none;
-  }
-}
 #no-landscape {
   position: absolute;
   z-index: 99;
@@ -186,13 +177,22 @@ no landscape animation */
   font-size: 32px;
   top: 0;
 }
-
-/* no mobile animation */
-@media screen and (max-width: 650px) {
-  #no-mobile {
+@media (orientation: portrait) {
+  #no-landscape {
     display: none;
   }
 }
+/* @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+  #no-landscape {
+    display: none;
+  }
+} */
+
+/* no mobile animation */
 #no-mobile {
   position: absolute;
   z-index: 99;
@@ -204,6 +204,11 @@ no landscape animation */
   align-items: center;
   font-size: 32px;
   top: 0;
+}
+@media screen and (max-width: 650px) {
+  #no-mobile {
+    display: none;
+  }
 }
 
 /* splash screen animation */
