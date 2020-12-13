@@ -106,8 +106,8 @@
 /* reply format  */
 .reply  {
   position: fixed;
-  top: 64vh;
-  height: 7vh;
+  bottom: 194px;
+  height: 56px;
   width: 100%;
   background-color: white;
   display: flex;
