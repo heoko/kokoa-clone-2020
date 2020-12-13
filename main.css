@@ -8,29 +8,29 @@
 @import "variables.css";
 
 /* Components */
-@import "components/status-bar.css";
-@import "components/welcome-header.css";
-@import "components/login-form.css";
-@import "components/nav-bar.css";
-@import "components/screen-header.css";
-@import "components/alt-screen-header.css";
-@import "components/friends-display-bar.css";
-@import "components/user-component.css";
-@import "components/badge-notification.css";
-@import "components/icon-row.css";
-@import "components/divider.css";
-@import "components/no-mobile.css";
-@import "components/animation.css";
-@import "components/dot-notification.css";
-@import "components/keyboard.css";
+@import "status-bar.css";
+@import "welcome-header.css";
+@import "login-form.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "alt-screen-header.css";
+@import "friends-display-bar.css";
+@import "user-component.css";
+@import "badge-notification.css";
+@import "icon-row.css";
+@import "divider.css";
+@import "no-mobile.css";
+@import "animation.css";
+@import "dot-notification.css";
+@import "keyboard.css";
 
 /* Screens */
 /* @import "screens/login.css"; */
-@import "screens/friends.css";
-@import "screens/find.css";
-@import "screens/more.css";
-@import "screens/settings.css";
-@import "screens/chat.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 body {
   color: #2e363e;
